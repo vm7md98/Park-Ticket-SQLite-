@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parkTicket">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconparkticket"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iconparkticket"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name="com.example.parkTicket.AdminUpdateBooking"></activity>
+        <activity android:name="com.example.parkTicket.AllBooking" />
+        <activity android:name="com.example.parkTicket.AdminBooking" />
+        <activity android:name="com.example.parkTicket.AdminUpdatePark" />
+        <activity android:name="com.example.parkTicket.AllPark" />
+        <activity android:name="com.example.parkTicket.AdminPark" />
+        <activity android:name="com.example.parkTicket.AdminUpdateMember" />
+        <activity android:name="com.example.parkTicket.AdminMember" />
+        <activity android:name="com.example.parkTicket.Congratulation" />
+        <activity android:name="com.example.parkTicket.ConfirmPrice" />
+        <activity android:name="com.example.parkTicket.Booking" />
+        <activity android:name="com.example.parkTicket.AllMember" />
+        <activity android:name="com.example.parkTicket.AdminHome" />
+        <activity android:name="com.example.parkTicket.SingUp" />
+        <activity android:name="com.example.parkTicket.Login" />
+        <activity android:name="com.example.parkTicket.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.parkTicket.Home" />
+        <activity android:name="com.example.parkTicket.MainActivity" />
+    </application>
+
+</manifest>
