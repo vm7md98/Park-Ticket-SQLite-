@@ -8,3 +8,4 @@ In this project I used SQLite to store the database in the device itself (Locall
 
 © Mohammed Bineid, Webs & Apps Developer <br>
 Licensed under the [MIT License](LICENSE).
+ 
